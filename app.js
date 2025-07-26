@@ -42,7 +42,7 @@ function sortearAmigo() {
         for(let i =0; i < amigos.length; i++){
             if (i == numeroDoSorteio) {
                 console.log(`for ${i}`);
-                resultado.innerHTML = amigos[i];
+                resultado.innerHTML = `Amigo sorteado foi: ${amigos[i]}`;
                 amigos.splice(numeroDoSorteio, 1);
                 atualizaListaAmigos();
             }
