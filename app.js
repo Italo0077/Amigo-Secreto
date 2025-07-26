@@ -8,6 +8,13 @@ function adicionarAmigo() {
     }else{
         amigos.push(nome);
         nome = document.querySelector('input').value = '';
+        atualizaListaAmigos(amigos);
         console.log(amigos);
     }
+}
+
+function atualizaListaAmigos(amigos) {
+    
+    let listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = amigos;
 }
