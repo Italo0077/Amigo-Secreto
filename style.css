@@ -116,9 +116,16 @@ button {
 }
 
 #removeAmigo {
-    margin-left: 15px;
-    margin-bottom: 8px;
-    background-color: rgba(255, 0, 0, 0.199);
+
+    background-color: #e74c3c; /* vermelho */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 .button-add {
