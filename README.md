@@ -1,5 +1,7 @@
 # 🔭 Amigo-Secreto
 😄 Jogo feita na curso da Aluga turma 9 com intuita de aplicar a logica de programação em javaScrip,  o Jogo consiste em adicionar amigos para sortealos
+# 📫 Link do jogo
+https://italo0077.github.io/Amigo-Secreto/
 # 💬 funcionalidade
 #### adicionar amigos
 #### remover amigos adicionados
