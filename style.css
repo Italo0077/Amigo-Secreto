@@ -115,6 +115,12 @@ button {
     cursor: pointer;
 }
 
+#removeAmigo {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    background-color: rgba(255, 0, 0, 0.199);
+}
+
 .button-add {
     background-color: var(--color-tertiary);
     color: var(--color-text);
