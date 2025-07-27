@@ -1,6 +1,13 @@
 let amigos =[];
 let listaAmigos = document.getElementById('listaAmigos');
 let resultado = document.getElementById('resultado');
+let amigo = document.getElementById('amigo');
+
+amigo.addEventListener('keydown', function(event) {
+    if (event.key === "Enter") {
+        adicionarAmigo();
+    }
+})
 
 function adicionarAmigo() {
    let nome = document.querySelector('input').value;
