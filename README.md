@@ -7,6 +7,7 @@ https://italo0077.github.io/Amigo-Secreto/
 #### remover amigos adicionados
 #### soterio amigos aleatoriamente
 #### remover amigo que já foi sorteado
+#### adiciona amigo a lista de sorteio ao aperta 'Enter' do teclado
 # 🌱 Tecnologia usadas
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"  width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40" /> <img/> 
 
