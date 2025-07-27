@@ -31,7 +31,6 @@ function atualizaListaAmigos() {
         br.textContent = 'remover';
         br.addEventListener('click', ()=> {
            remover(i);
-
         })
         listaAmigos.appendChild(li).appendChild(br);
     }
@@ -48,7 +47,6 @@ function sortearAmigo() {
     if (amigos.length != 0) {
         for(let i =0; i < amigos.length; i++){
             if (i == numeroDoSorteio) {
-                console.log(`for ${i}`);
                 resultado.innerHTML = `Amigo sorteado foi: ${amigos[i]}`;
                 amigos.splice(numeroDoSorteio, 1);
                 atualizaListaAmigos();
