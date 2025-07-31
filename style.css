@@ -70,6 +70,14 @@ body {
     text-align: center;
 }
 
+.section-chckbox{
+    font-size: 18px;
+    font-weight: 600;
+    align-items:start;
+    padding: 1%;
+    color: var(--color-primary);
+}
+
 /* Contêineres de entrada e botão */
 .input-wrapper {
     display: flex;

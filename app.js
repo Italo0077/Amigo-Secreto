@@ -1,6 +1,7 @@
 let amigos =[];
 let listaAmigos = document.getElementById('listaAmigos');
 let resultado = document.getElementById('resultado');
+let checkboxExluirSorteados = document.querySelector('.checkbox');
 let amigo = document.getElementById('amigo');
 
 amigo.addEventListener('keydown', function(event) {
@@ -48,7 +49,9 @@ function sortearAmigo() {
         for(let i =0; i < amigos.length; i++){
             if (i == numeroDoSorteio) {
                 resultado.innerHTML = `Amigo sorteado foi: ${amigos[i]}`;
-                amigos.splice(numeroDoSorteio, 1);
+                checkboxExluirSorteados.checked ? amigos.splice(numeroDoSorteio, 1) : null;
+                console.log(checkboxExluirSorteados);
+                
                 atualizaListaAmigos();
             }
         }
